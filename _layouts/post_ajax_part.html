@@ -1,0 +1,12 @@
+---
+layout: null
+---
+
+{% include comments.html %}
+
+<div id="webmentions">
+  <h2>Webmentions (<a href="https://indieweb.org/Webmention">?</a>)</h2>
+  {% if jekyll.environment == "production" %}
+    {% webmentions this_url %}
+  {% endif %}
+</div>
