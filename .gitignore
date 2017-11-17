@@ -4,5 +4,6 @@ _scripts
 _site
 _site_serve
 _config_credentials.yml
+_algolia_api_key
 .asset-cache
 .jekyll-cache

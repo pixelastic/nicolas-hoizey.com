@@ -64,33 +64,28 @@ assets:
 
 # Algolia
 algolia:
-  application_id: …
-  index_name: …
-  read_only_api_key: …
-  record_css_selector: 'p,li,figure,tr,div'
-  excluded_files:
-    - 404.html
-    - index.html
+  application_id: MXM0JWJNIW
+  index_name: test_jekyll
 
-# Webmention
-webmentions:
-  username: nicolas-hoizey.com
-  cache_folder: _data/webmentions
-  cache_bad_uris_for: 5
-  pause_lookups: false
-  templates:
-    count: _includes/webmentions/count.html
-    likes: _includes/webmentions/likes.html
-    reposts: _includes/webmentions/reposts.html
-    webmentions: _includes/webmentions/webmentions.html
-  js: false
-  legacy_domains:
-    - http://nicolas-hoizey.com
-  throttle_lookups:
-    last_week: daily
-    last_month: weekly
-    last_year: every 2 weeks
-    older: monthly
+# # Webmention
+# webmentions:
+#   username: nicolas-hoizey.com
+#   cache_folder: _data/webmentions
+#   cache_bad_uris_for: 5
+#   pause_lookups: false
+#   templates:
+#     count: _includes/webmentions/count.html
+#     likes: _includes/webmentions/likes.html
+#     reposts: _includes/webmentions/reposts.html
+#     webmentions: _includes/webmentions/webmentions.html
+#   js: false
+#   legacy_domains:
+#     - http://nicolas-hoizey.com
+#   throttle_lookups:
+#     last_week: daily
+#     last_month: weekly
+#     last_year: every 2 weeks
+#     older: monthly
 
 # YouTube
 youtube:

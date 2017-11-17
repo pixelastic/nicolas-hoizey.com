@@ -10,10 +10,10 @@ group :jekyll_plugins do
   gem 'autoprefixer-rails'
   gem 'uglifier'
   gem 'jekyll-tagging'
-  gem 'algoliasearch-jekyll'
+  gem 'jekyll-algolia', path: '/home/tim/local/www/algolia/clients/jekyll-algolia/'
   gem 'jekyll-postfiles'
   gem 'jekyll-cloudinary'
   gem 'jekyll-archives'
   gem 'jekyll-microtypo'
-  gem 'jekyll-webmention_io'
+  # gem 'jekyll-webmention_io'
 end
